@@ -2003,6 +2003,69 @@ footer{
         padding-left: 2.4em;
     }
 }
+@media (max-height: 780px){
+    .top{
+        height: 96px;
+        padding: 1% 2% 1% 4%;
+        flex-wrap: wrap;
+    }  
+    .contact-class4 li{
+       text-align: center;
+    }
+    .banner-img{
+        margin-top: -12.4em;
+        height: 1056px;
+    }
+    .banner-text{
+        margin-top: -38em;
+    }
+    .banner-title{
+        margin-top: -10.8em;
+    }
+    .banner-text2{
+        margin-top: -19em;
+    }
+    .banner-bttn{
+        margin-top: -10.4em;
+    }
+    .m-imgbx{
+        width: 100%;
+        height: 349px;
+    }
+    .text-box{
+        margin-top: -10em;
+        padding: 0 58% 0 4%;
+    }
+    .service-img{
+        margin-top: -2%;
+    }
+    .accro-img{
+        height: 281px;
+    }
+    .resource-title22{
+        padding-top: 1.4em;
+    }
+    .resource-img42{
+        height: 1560px;
+    }
+    .resource-img1{
+        margin-top: 4%;
+    }
+    .incident-background{
+        height: 100vh;
+    }
+    .incident-img1{
+        height: 300px;
+    }
+    .incident-title{
+        margin-top: -2em;
+    }
+    .foot-image{
+        position: relative;
+        width: 100%;
+        height: 320vh;
+    }
+}
 @media (max-height: 580px){
     .top{
         height: 96px;
