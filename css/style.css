@@ -1623,13 +1623,22 @@ footer{
     }
 }
 @media only screen and (max-width: 620px){
+    .banner-img{
+        margin-top: -9.4em;
+    }
     .m-imgbx{
         width: 100%;
         height: 349px;
     }
     .text-box{
         margin-top: -10em;
-        padding: 0 68% 0 4%;
+        padding: 0 20% 0 4%;
+    }
+    .service-img{
+        margin-top: -6%;
+    }
+    .resource-title22{
+        padding-top: 1.4em;
     }
     .resource-img42{
         position: relative;
@@ -1639,8 +1648,14 @@ footer{
         margin-top: 2em;
         margin-left: 4%;
     }
+    .resource-img1{
+        margin-top: 6%;
+    }
 }
 @media only screen and (max-width: 500px){
+    .banner-text2{
+        margin-top: -17em;
+    }
     .text-box{
         padding: 0 30% 0 4%;
     }
@@ -1758,8 +1773,14 @@ footer{
     }
 }
 @media only screen and (max-width: 425px){
+    .banner-text2{
+        margin-top: -18em;
+    }
     .text-box{
-        padding: 0 48% 0 0%;
+        padding: 0 60% 0 4%;
+    }
+    .service-img{
+        margin-top: -4%;
     }
     .middle-txt{
         font-size: 35px;
@@ -1769,6 +1790,9 @@ footer{
     }
     .resource-img{
         width:380px;
+    }
+    .type_msg{
+        width: 284px;
     }
     .s-flex_img1{
         width: 380px;
@@ -1821,11 +1845,27 @@ footer{
     }
 }
 @media (max-width: 375px){
+    .banner-img{
+        margin-top: -12.4em;
+        height: 1056px;
+    }
+   .banner-text{
+        margin-top: -38em;
+    }
+    .banner-title{
+        margin-top: -10.8em;
+    }
+    .banner-text2{
+        margin-top: -19em;
+    }
+    .banner-bttn{
+        margin-top: -10.4em;
+    }
     .text-box{
         padding: 0 68% 0 0%;
     }
     .service-img{
-        margin-top: 34%;
+        margin-top: -6%;
     }
     .resource-img2{
         margin-top: 0em;
@@ -1922,6 +1962,9 @@ footer{
     .shape-text{
         margin-top: 56em;
         margin-left: 5em;
+    }
+    .service-img{
+        margin-top: 10%;
     }
     .client-img1{
         margin-left: 2.2em;
