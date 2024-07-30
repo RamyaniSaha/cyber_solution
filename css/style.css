@@ -117,9 +117,13 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.fixed .banner-bttn{
+    position: absolute;
+    margin-top: 2.4em;
+}
 .banner-text{
     position: absolute;
-    top: 11.8em;
+    margin-top: -30.8em;
     left: 2.8%;
     color: white;
     font-size: 21px;
@@ -129,7 +133,7 @@
 }
 .banner-title{
     position: absolute;
-    top: 4.3em;
+    margin-top: -9em;
     left: 2.8%;
     color: white;
     font-size: 66px;
@@ -139,7 +143,7 @@
 }
 .banner-text2{
     position: absolute;
-    top: 25.9em;
+    margin-top: -22em;
     left: 2.8%;
     color: white;
     font-size: 18px;
@@ -1950,6 +1954,91 @@ footer{
         padding-left: 2.4em;
     }
 }
+@media (max-height: 580px){
+    .top{
+        height: 96px;
+        padding: 1% 2% 1% 4%;
+        flex-wrap: wrap;
+    }  
+    .contact-class4 li{
+       text-align: center;
+    }
+    .banner-img{
+        margin-top: -12.4em;
+        height: 1056px;
+    }
+    .banner-text{
+        margin-top: -38em;
+    }
+    .banner-title{
+        margin-top: -10.8em;
+    }
+    .banner-text2{
+        margin-top: -19em;
+    }
+    .banner-bttn{
+        margin-top: -10.4em;
+    }
+    .m-imgbx{
+        width: 100%;
+        height: 349px;
+    }
+    .text-box{
+        margin-top: -10em;
+        padding: 0 68% 0 4%;
+    }
+    .service-img{
+        margin-top: -6%;
+    }
+    .accro-img{
+        height: 281px;
+    }
+    .resource-title22{
+        padding-top: 1.4em;
+    }
+    .resource-img42{
+        height: 1560px;
+    }
+    .resource-img1{
+        margin-top: 4%;
+    }
+    .type_msg{
+        width: 264px;
+    }
+    .phone6 i{
+        left: 8em;
+    }
+    .phone7 i{
+        left: 8em;
+    }
+    .phone8 i{
+        left: 8em;
+    }
+    .phone-title1{
+        padding-left: 3em;
+    }
+    .phone-title{
+        padding-left: 2.5em;
+    }
+    .phone-title2{
+        padding-left: 2.2em;
+    }
+    .incident-background{
+        height: 100vh;
+    }
+    .incident-img1{
+        height: 300px;
+    }
+    .incident-title{
+        margin-top: -2em;
+    }
+    .foot-image{
+        position: relative;
+        width: 100%;
+        height: 320vh;
+    }
+}
+
 @media (max-height: 420px){
     .top{
         height: 96px;
@@ -1963,8 +2052,14 @@ footer{
         margin-top: -12.4em;
         height: 1056px;
     }
+   .banner-text{
+        margin-top: -38em;
+    }
+    .banner-title{
+        margin-top: -10.8em;
+    }
     .banner-text2{
-        margin-top: 10em;
+        margin-top: -19em;
     }
     .banner-bttn{
         margin-top: -10.4em;
